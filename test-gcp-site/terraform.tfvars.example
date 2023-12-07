@@ -1,0 +1,21 @@
+project_prefix = "prefix"
+f5xc_gcp_cred  = ""
+
+gcp_interconnect = {
+  primary = {
+    name        = "interconnect-name-1",
+    region      = "us-west2",
+    description = "should be active"
+  },
+  secondary = {
+    name        = "interconnect-name-2"
+    region      = "us-east4"
+    description = "should be active"
+  }
+}
+
+private_adn_network_name = ""
+
+f5xc_api_url         = "https://tenant.ves.volterra.io/api"
+f5xc_api_token       = ""
+f5xc_api_p12_file    = "<path to tenant.ves.api-creds.p12"

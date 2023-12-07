@@ -1,0 +1,21 @@
+project_prefix = "preifx"
+
+aws_vif = {
+  primary = {
+    connection_id           = "dxcon-........"
+    vlan                    =  100
+    bgp_asn                 =  65110
+    router_peer_address     = "192.168.1.1/30"
+    aws_router_peer_address = "192.168.1.2/30"
+    auth_key                = "0x......................"
+    region                  = "us-west-2"
+  }
+}
+
+f5xc_aws_cred     = "<credname>"
+
+private_adn_network_name = ""
+
+f5xc_api_url         = "https://tenant.ves.volterra.io/api"
+f5xc_api_token       = ""
+f5xc_api_p12_file    = "<path to tenant.ves.api-creds.p12"
